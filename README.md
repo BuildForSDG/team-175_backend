@@ -40,14 +40,10 @@ This is a simple Django 1.110+ project template with my preferred setup. Most Dj
   iii)to see other auth options
     ->localhost:8000/api/auth
     -> 
-
-```bash
-$ django-admin.py startproject \
-  --template=https://github.com/jpadilla/django-project-template/archive/master.zip \
-  --name=Procfile \
-  --extension=py,md,env \
-  project_name
-$ mv example.env .env
-$ pipenv install --dev
-```
-
+14. To log in to admin account, create superuser.
+    Go back to terminal and stop the server
+15. Create superuser
+    -> python manage.py createsuperuser
+16. Start the server again and go to this url on the browser
+  -> localhost:8000/admin
+ 17. Login with the user username and password you used in the creation of the super user.
