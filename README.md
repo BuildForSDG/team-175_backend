@@ -17,9 +17,9 @@ This is a simple Django 1.110+ project template with my preferred setup. Most Dj
 4. create another folder outside the clone project and name it 'backend'
 5. move your cloned project project to the 'backend' folder
 6. open a terminal and navigate to the backend folder
-7. create a virtual environment and activate it:
-  (for window users)
-  i) creating vitual environment
+7. create a virtual environment and activate it:<br>
+  (for window users)<br>
+  i) creating vitual environment<br>
     -> python -m venv sdgVenv
   ii) activating virtual environment
     -> sdgVenv\Scripts\activate.bat
